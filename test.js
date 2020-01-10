@@ -10,4 +10,4 @@ async function performTest(count) {
     }
 };
 
-performTest(20);
+performTest(120);
