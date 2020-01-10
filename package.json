@@ -1,0 +1,21 @@
+{
+  "name": "airtasker",
+  "version": "1.0.0",
+  "description": "Airtasker server demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "AndreiP",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "http": "0.0.0",
+    "rate-limiter-flexible": "^1.2.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
